@@ -1,5 +1,5 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "nodejs-cipher-performance",
   "description": "benchmarks for node `crypto.getCiphers()` or just a wrapper for cipher function",
   "keywords": [
@@ -25,12 +25,12 @@
   "dependencies": {
   },
   "devDependencies": {
-    "benchmark": "~1.0.0",
-    "beautify-benchmark": "~0.2.4",
-    "seedrandom": "~2.3.6"
+    "benchmark": "~1.0",
+    "beautify-benchmark": "~0.2",
+    "seedrandom": "~2.3"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": "^0.10"
   },
   "scripts": {
     "prepublish": "npm prune",

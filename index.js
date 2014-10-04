@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 /**
  * @file nodejs-cipher-performance main
  * @module nodejs-cipher-performance
