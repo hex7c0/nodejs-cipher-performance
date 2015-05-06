@@ -27,7 +27,7 @@
   "devDependencies": {
     "benchmark": "~1.0",
     "beautify-benchmark": "~0.2",
-    "seedrandom": "~2.3"
+    "seedrandom": "~2.4"
   },
   "engines": {
     "node": ">=0.10"
