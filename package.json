@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "nodejs-cipher-performance",
   "description": "benchmarks for node `crypto.getCiphers()` or just a wrapper for cipher function",
   "keywords": [
