@@ -36,7 +36,12 @@ cipher('foo', 'aes128', 'ciao', 'base64');
 
 ## Benchmark
 
-Look at [Travis](https://travis-ci.org/hex7c0/nodejs-cipher-performance/) for latest run
+Look at
+[![Linux](https://img.shields.io/travis/hex7c0/nodejs-cipher-performance.svg?label=linux)](https://travis-ci.org/hex7c0/nodejs-cipher-performance)
+and
+[![Windows](https://img.shields.io/appveyor/ci/hex7c0/nodejs-cipher-performance.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/nodejs-cipher-performance)
+for latest run
+
 
 ```bash
 $ npm run-script test
