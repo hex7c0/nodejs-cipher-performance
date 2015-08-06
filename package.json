@@ -36,5 +36,5 @@
     "prepublish": "npm prune",
     "test": "node benchmark/index.js"
   },
-  "license": "GPLv3"
+  "license": "GPL-3.0"
 }
