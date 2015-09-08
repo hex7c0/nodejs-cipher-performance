@@ -12,7 +12,6 @@
 /*
  * initialize module
  */
-// import
 var crypto = require('crypto');
 
 /*

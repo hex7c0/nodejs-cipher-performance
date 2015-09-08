@@ -1,11 +1,13 @@
+'use strict';
+/**
+ * bootstrap
+ */
 var fs = require('fs');
 var path = require('path');
 var spawn = require('child_process').spawn;
 
 var exe = process.argv[0];
 var cwd = process.cwd();
-
-runScripts(fs.readdirSync(__dirname));
 
 function runScripts(fileNames) {
 
@@ -26,3 +28,5 @@ function runScripts(fileNames) {
     runScripts(fileNames);
   });
 }
+
+runScripts(fs.readdirSync(__dirname));
