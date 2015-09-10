@@ -58,8 +58,8 @@ function getbuffer(size) {
   var buffer = new Buffer(size);
   var rng = seedrandom('body ' + size);
 
-  for (var j = 0, jj = buffer.length; j < jj; ++j) {
-    buffer[j] = (rng() * 94 + 32) | 0;
+  for (var l = 0, ll = buffer.length; l < ll; ++l) {
+    buffer[l] = (rng() * 94 + 32) | 0;
   }
 
   return buffer;
