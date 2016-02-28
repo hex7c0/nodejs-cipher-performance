@@ -29,7 +29,7 @@ for (var i = 0, ii = ciphers.length; i < ii; ++i) {
   // + '")'
   // });
   suite.add({
-    name: ' buffer-' + encoding[j] + '-' + ciphers[i],
+    name: 'buffer-' + encoding[j] + '-' + ciphers[i],
     minSamples: 50,
     fn: 'var val = cipher(buffer, "' + ciphers[i] + '", Buffer("ciao"), "'
       + encoding[j] + '")'
@@ -39,17 +39,15 @@ for (var i = 0, ii = ciphers.length; i < ii; ++i) {
 
 suite.on('start', function onCycle(event) {
 
-  process.stdout.write('  10000 body\n\n');
+  process.stdout.write('10000 body\n\n');
 }).on('cycle', function onCycle(event) {
 
   benchmarks.add(event.target);
 }).on('complete', function onComplete() {
 
   benchmarks.log();
-  console.log('Fastest is:' + this.filter('fastest').pluck('name') + '\n');
-});
-
-suite.run({
+  console.log('Fastest is: ' + this.filter('fastest')[0].name + '\n');
+}).run({
   async: false
 });
 
