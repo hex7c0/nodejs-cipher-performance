@@ -1,5 +1,5 @@
 {
-  "version": "0.0.6",
+  "version": "0.0.7",
   "name": "nodejs-cipher-performance",
   "description": "benchmarks for node `crypto.getCiphers()` or just a wrapper for cipher function",
   "keywords": [
@@ -8,7 +8,7 @@
     "benchmark"
   ],
   "preferGlobal": false,
-  "homepage": "http://supergiovane.tk/#/nodejs-cipher-performance",
+  "homepage": "https://github.com/hex7c0/nodejs-cipher-performance",
   "author": {
     "name": "hex7c0",
     "email": "hex7c0@gmail.com",
