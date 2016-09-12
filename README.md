@@ -32,7 +32,7 @@ cipher('foo', 'aes128', 'ciao', 'base64');
  - `password` - **String | Buffer** Your Password *(default "required")*
  - `encoding`- **String** Type of Encoding *(default "required")*
 
-### [License GPLv3](http://opensource.org/licenses/GPL-3.0)
+### [License GPLv3](LICENSE)
 
 ## Benchmark
 
