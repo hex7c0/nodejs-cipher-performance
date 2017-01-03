@@ -31,7 +31,7 @@
     "seedrandom": "~2.4"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4"
   },
   "scripts": {
     "prepublish": "npm prune",
