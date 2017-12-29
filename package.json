@@ -23,18 +23,17 @@
     "email": "hex7c0@gmail.com"
   },
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "benchmark": "~2.1",
     "beautify-benchmark": "~0.2",
+    "benchmark": "~2.1",
     "seedrandom": "~2.4"
   },
   "engines": {
     "node": ">=4"
   },
   "scripts": {
-    "prepublish": "npm prune",
+    "prepare": "npm prune",
     "test": "node benchmark/index.js"
   },
   "license": "GPL-3.0"
