@@ -23,7 +23,7 @@ var cipher = require('nodejs-cipher-performance');
 cipher('foo', 'aes128', 'ciao', 'base64');
 ```
 
-### nodejs-cipher-performance(raw,cipher,password,encoding)
+### nodejs-cipher-performance(raw, cipher, password, encoding)
 
 #### options
 
