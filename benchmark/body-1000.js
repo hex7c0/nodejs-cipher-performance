@@ -11,9 +11,9 @@ var seedrandom = require('seedrandom');
  * Globals for benchmark.js
  */
 
-global.buffer = getbuffer(1000);
+global.buffer = getbuffer(500);
 global.cipher = require('..');
-global.string = getbuffer(1000).toString();
+global.string = getbuffer(500).toString();
 
 var suite = new benchmark.Suite;
 
@@ -39,7 +39,7 @@ for (var i = 0, ii = ciphers.length; i < ii; ++i) {
 
 suite.on('start', function onCycle(event) {
 
-  process.stdout.write('1000 body\n\n');
+  process.stdout.write('500 body\n\n');
 }).on('cycle', function onCycle(event) {
 
   benchmarks.add(event.target);
